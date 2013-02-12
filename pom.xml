@@ -54,6 +54,12 @@
 
   <description>This is a module for running on a Jahia server.</description>
 
+  <scm>
+    <connection>scm:git:git@github.com:Jahia/event.git</connection>
+    <url>scm:git:git@github.com:Jahia/event.git</url>
+    <developerConnection>scm:git:git@github.com:Jahia/event.git</developerConnection>
+  </scm>
+
     <repositories>
         <repository>
             <id>jahia-public</id>
