@@ -58,6 +58,8 @@
     <connection>scm:git:git@github.com:Jahia/event.git</connection>
     <url>scm:git:git@github.com:Jahia/event.git</url>
     <developerConnection>scm:git:git@github.com:Jahia/event.git</developerConnection>
+    <scmVersion>1_x</scmVersion>
+    <scmVersionType>branch</scmVersionType>
   </scm>
 
     <repositories>
