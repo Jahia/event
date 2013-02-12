@@ -64,5 +64,10 @@
                 <enabled>true</enabled>
             </snapshots>
         </repository>
-    </repositories>
+    </repositories>    
+    <scm>
+        <connection>scm:git:git@github.com:Jahia/event.git</connection>
+        <url>scm:git:git@github.com:Jahia/event.git</url>
+        <developerConnection>scm:git:git@github.com:Jahia/event.git</developerConnection>
+    </scm>
 </project>
