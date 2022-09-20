@@ -64,6 +64,7 @@
   </scm>
   <properties>
     <jahia-module-signature>MCwCFGzO+Cbwegqe8bA6a0jh5t13zICIAhRGFpeIRAkAWPF81JB26YI9ZoZNHg==</jahia-module-signature>
+    <jahia.plugin.version>6.4</jahia.plugin.version>
   </properties>
   <repositories>
     <repository>
