@@ -1,5 +1,6 @@
 window.jahia.uiExtender.registry.add('callback', 'eventPickerRegistration', {
-    targets: ['jahiaApp-init:777'],
+    //Content-Editor initialisation callback as a priority of 2
+    targets: ['jahiaApp-init:33'],
     callback: () => {
         //get default pickerConfig
         const defaultPicker = window.jahia.uiExtender.registry.get('pickerConfiguration', 'default')
