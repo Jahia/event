@@ -20,7 +20,16 @@ window.jahia.uiExtender.registry.add('callback', 'eventPickerRegistration', {
             accordionItem: {
                 "picker-pages": {
                     tableConfig: {
-                        columns: ["publicationStatus", "name", "lastModified"]
+                        fragments: [{
+                            gql: window.jahia.graphqlTag('fragment EventProp on JCRNode { eventsType: property(name: "eventsType") { value } }'),
+                            applyFor: 'node'
+                        }],
+                        columns: ["publicationStatus", "name", "lastModified", {
+                            id: 'event-info',
+                            accessor: row => row.eventsType && row.eventsType.value,
+                            label: 'Event info',
+                        }]
+
                     },
                     rootPath: "/sites/{site}/home",
                     treeConfig: {
