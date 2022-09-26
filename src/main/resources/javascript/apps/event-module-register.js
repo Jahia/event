@@ -2,14 +2,10 @@ window.jahia.uiExtender.registry.add('callback', 'eventPickerRegistration', {
     //Content-Editor initialisation callback as a priority of 2
     targets: ['jahiaApp-init:33'],
     callback: () => {
-        //get default pickerConfig
-        const defaultPicker = window.jahia.uiExtender.registry.get('pickerConfiguration', 'default')
-        const usePickerInputData = defaultPicker.pickerInput.usePickerInputData;
         window.jahia.uiExtender.registry.add('pickerConfiguration', 'event', {
             pickerInput: {
                 emptyLabel: 'No event here',
-                notFoundLabel: 'No event Found',
-                usePickerInputData
+                notFoundLabel: 'No event Found'
             },
             pickerDialog: {
                 view: 'List',
@@ -26,7 +22,7 @@ window.jahia.uiExtender.registry.add('callback', 'eventPickerRegistration', {
                     tableConfig: {
                         columns: ["publicationStatus", "name", "lastModified"]
                     },
-                    rootPath: "/sites/{site}/home/events",
+                    rootPath: "/sites/{site}/home",
                     treeConfig: {
                         hideRoot: false
                     }
