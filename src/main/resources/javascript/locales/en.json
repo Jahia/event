@@ -1,0 +1,15 @@
+{
+  "label": {
+    "picker":
+      {
+        "title": "Select an event",
+        "type": "Event type",
+        "startDate": "Start date",
+        "endDate": "End date",
+        "contentFolder": "Event folders",
+        "empty": "Select an event",
+        "notFound": "The event cannot be found. Select another one.",
+        "sharedFolder": "Shared events"
+      }
+  }
+}
