@@ -52,7 +52,7 @@
     <version>8.1.1.0</version>
   </parent>
   <artifactId>event</artifactId>
-  <version>3.2.0</version>
+  <version>3.3.0-SNAPSHOT</version>
   <packaging>bundle</packaging>
   <name>Jahia Event</name>
   <description>These are the custom module (Jahia Event) for running on a Jahia server.</description>
@@ -60,7 +60,7 @@
     <connection>scm:git:git@github.com:Jahia/event.git</connection>
     <developerConnection>scm:git:git@github.com:Jahia/event.git</developerConnection>
     <url>scm:git:git@github.com:Jahia/event.git</url>
-    <tag>3_2_0</tag>
+    <tag>HEAD</tag>
   </scm>
   <properties>
     <jahia-module-signature>MCwCFGzO+Cbwegqe8bA6a0jh5t13zICIAhRGFpeIRAkAWPF81JB26YI9ZoZNHg==</jahia-module-signature>
