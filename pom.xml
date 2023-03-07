@@ -73,7 +73,7 @@
         <artifactId>maven-bundle-plugin</artifactId>
         <configuration>
           <instructions>
-            <Jahia-Depends>content-editor=4.1</Jahia-Depends>
+            <Jahia-Depends>content-editor=(4.1,5)</Jahia-Depends>
           </instructions>
         </configuration>
       </plugin>
