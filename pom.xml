@@ -44,8 +44,7 @@
         please contact the sales department at sales@jahia.com.
 
 -->
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.jahia.modules</groupId>
@@ -53,7 +52,7 @@
     <version>8.1.1.0</version>
   </parent>
   <artifactId>event</artifactId>
-  <version>4.0.0-SNAPSHOT</version>
+  <version>4.0.0</version>
   <packaging>bundle</packaging>
   <name>Jahia Event</name>
   <description>These are the custom module (Jahia Event) for running on a Jahia server.</description>
@@ -61,7 +60,7 @@
     <connection>scm:git:git@github.com:Jahia/event.git</connection>
     <developerConnection>scm:git:git@github.com:Jahia/event.git</developerConnection>
     <url>scm:git:git@github.com:Jahia/event.git</url>
-    <tag>HEAD</tag>
+    <tag>4_0_0</tag>
   </scm>
   <properties>
     <jahia-module-signature>MCwCFE5ZjzaHXCpN/6dD6jf9DIBQC+kHAhRbKXd/BBGPY32xkf3VX7QPpV3OWw==</jahia-module-signature>
