@@ -41,7 +41,7 @@
                         <jcr:nodeProperty node="${currentNode}" name="j:defaultCategory" var="cat"/>
                         <c:if test="${cat != null}">
                                     <c:forEach items="${cat}" var="category">
-                                        <span class="categorytitle">${category.node.displayableName}</span>
+                                        <span class="categorytitle">${fn:escapeXml(category.node.displayableName)}</span>
                                     </c:forEach>
 
                         </c:if>
